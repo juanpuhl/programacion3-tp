@@ -139,7 +139,9 @@ function agregarPersonajeAlFinal() {
     console.error("error en 2.a:", error.message);
   }
 }
- 
+//agregarPersonajeAlFinal();
+
+
 //2.b  Agregar dos personajes al inicio del archiv
 function agregarDosPersonajesAlInicio() {
   try {
@@ -174,4 +176,4 @@ function agregarDosPersonajesAlInicio() {
     console.error("error en 2.b:", error.message);
   }
 }
- 
+//  agregarDosPersonajesAlInicio(); 
