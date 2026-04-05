@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1,
+    "nombreCompleto": "Samwell Tarly"
+  },
+  {
+    "id": 2,
+    "nombreCompleto": "Jon Snow"
+  },
+  {
+    "id": 3,
+    "nombreCompleto": "Arya Stark"
+  },
+  {
+    "id": 4,
+    "nombreCompleto": "Sansa Stark"
+  },
+  {
+    "id": 5,
+    "nombreCompleto": "Brandon Stark"
+  },
+  {
+    "id": 6,
+    "nombreCompleto": "Ned Stark"
+  },
+  {
+    "id": 7,
+    "nombreCompleto": "Robert Baratheon"
+  },
+  {
+    "id": 8,
+    "nombreCompleto": "Jamie Lannister"
+  },
+  {
+    "id": 9,
+    "nombreCompleto": "Cersei Lannister"
+  },
+  {
+    "id": 10,
+    "nombreCompleto": "Catelyn Stark"
+  },
+  {
+    "id": 11,
+    "nombreCompleto": "Rob Stark"
+  },
+  {
+    "id": 12,
+    "nombreCompleto": "Theon Greyjoy"
+  },
+  {
+    "id": 13,
+    "nombreCompleto": "Joffrey Baratheon"
+  },
+  {
+    "id": 14,
+    "nombreCompleto": "Tyrion Lannister"
+  },
+  {
+    "id": 15,
+    "nombreCompleto": "The Hound"
+  },
+  {
+    "id": 16,
+    "nombreCompleto": "Petyr Baelish"
+  },
+  {
+    "id": 17,
+    "nombreCompleto": "Davos Seaworth"
+  },
+  {
+    "id": 18,
+    "nombreCompleto": "Stannis Baratheon"
+  },
+  {
+    "id": 19,
+    "nombreCompleto": "Varys"
+  },
+  {
+    "id": 20,
+    "nombreCompleto": "Khal Drogo"
+  },
+  {
+    "id": 21,
+    "nombreCompleto": "Margaery Tyrell"
+  },
+  {
+    "id": 22,
+    "nombreCompleto": "Ygritte"
+  },
+  {
+    "id": 23,
+    "nombreCompleto": "Brienne of Tarth"
+  },
+  {
+    "id": 24,
+    "nombreCompleto": "Missandei"
+  },
+  {
+    "id": 25,
+    "nombreCompleto": "Gilly"
+  },
+  {
+    "id": 26,
+    "nombreCompleto": "Viserys Targaryn"
+  },
+  {
+    "id": 27,
+    "nombreCompleto": "Rickon Stark"
+  },
+  {
+    "id": 28,
+    "nombreCompleto": "Roose Bolton"
+  },
+  {
+    "id": 29,
+    "nombreCompleto": "Daario"
+  },
+  {
+    "id": 30,
+    "nombreCompleto": "Shae"
+  },
+  {
+    "id": 31,
+    "nombreCompleto": "Tommen Baratheon"
+  },
+  {
+    "id": 32,
+    "nombreCompleto": "Gendry Baratheon"
+  },
+  {
+    "id": 33,
+    "nombreCompleto": "Jorah Mormont"
+  },
+  {
+    "id": 34,
+    "nombreCompleto": "Robert Baratheon"
+  },
+  {
+    "id": 35,
+    "nombreCompleto": "Ramsey Bolton"
+  },
+  {
+    "id": 36,
+    "nombreCompleto": "Talisa Stark"
+  },
+  {
+    "id": 37,
+    "nombreCompleto": "Jeor Mormont"
+  },
+  {
+    "id": 38,
+    "nombreCompleto": "The High Sparrow"
+  },
+  {
+    "id": 39,
+    "nombreCompleto": "Oberyn Martell"
+  },
+  {
+    "id": 40,
+    "nombreCompleto": "Melisandre"
+  },
+  {
+    "id": 41,
+    "nombreCompleto": "Jaqen H'ghar"
+  },
+  {
+    "id": 42,
+    "nombreCompleto": "Tywin Lannister"
+  },
+  {
+    "id": 43,
+    "nombreCompleto": "Ellaria Sand"
+  },
+  {
+    "id": 44,
+    "nombreCompleto": "Tormund Giantsbane"
+  },
+  {
+    "id": 45,
+    "nombreCompleto": "Yara Greyjoy"
+  },
+  {
+    "id": 46,
+    "nombreCompleto": "Euron Greyjoy"
+  },
+  {
+    "id": 47,
+    "nombreCompleto": "Hodor"
+  },
+  {
+    "id": 48,
+    "nombreCompleto": "Pycelle"
+  },
+  {
+    "id": 49,
+    "nombreCompleto": "Grey Worm"
+  },
+  {
+    "id": 50,
+    "nombreCompleto": "Olenna Tyrell"
+  },
+  {
+    "id": 51,
+    "nombreCompleto": "Qyburn"
+  },
+  {
+    "id": 52,
+    "nombreCompleto": "Lord Bronn"
+  }
+]

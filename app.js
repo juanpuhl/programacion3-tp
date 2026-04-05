@@ -63,7 +63,7 @@ async function agregarPersonaje() {
     }
 }
 
-//gregarPersonaje();
+//agregarPersonaje();
 
 
 //1.C - Buscar por ID
@@ -176,4 +176,69 @@ function agregarDosPersonajesAlInicio() {
     console.error("error en 2.b:", error.message);
   }
 }
-//  agregarDosPersonajesAlInicio(); 
+//agregarDosPersonajesAlInicio(); 
+
+// 2.c
+async function eliminarPrimerPersonaje() {
+  try {
+    const datos = await fs.readFile('personajes.json', 'utf-8');
+    const personajes = JSON.parse(datos);
+
+    const eliminado = personajes.shift();
+
+    await fs.writeFile('personajes.json', JSON.stringify(personajes, null, 2));
+
+    console.log(" - - - Elemento eliminado - - - ");
+    console.log(eliminado);
+
+  } catch (error) {
+    console.error("Error en el punto 2.c:", error.message);
+  }
+}
+
+//eliminarPrimerPersonaje();
+
+
+async function crearResumenPersonajes() {
+  try {
+    const datos = await fs.readFile('personajes.json', 'utf-8');
+    const personajes = JSON.parse(datos);
+
+    const listaResumida = personajes.map(p => {
+      return {
+        id: p.id,
+        nombreCompleto: p.fullName 
+      };
+    });
+
+    await fs.writeFile('personajes_resumen.json', JSON.stringify(listaResumida, null, 2));
+
+    console.log(" - - - 2.d Archivo 'personajes_resumen.json' creado con éxito - - - ");
+    console.log("Se guardaron " + listaResumida.length + " personajes resumidos.");
+
+  } catch (error) {
+    console.error("Error en el punto 2.d:", error.message);
+  }
+}
+
+//crearResumenPersonajes();
+
+
+async function ordenarNombresDecreciente() {
+  try {
+    const datos = await fs.readFile('personajes_resumen.json', 'utf-8');
+    const personajes = JSON.parse(datos);
+
+    personajes.sort((a, b) => {
+      return b.nombreCompleto.localeCompare(a.nombreCompleto);
+    });
+
+    console.log("Personajes ordenados alfabeticamente");
+    console.log(personajes);
+
+  } catch (error) {
+    console.error("Error en el punto 2.e:", error.message);
+  }
+}
+
+//ordenarNombresDecreciente();
