@@ -72,3 +72,64 @@ async function buscarPersonajePorId(id) {
 }
 
 buscarPersonajePorId(55); // ejemplo de que personaje busca
+
+//2.a - Agregar un personaje al final del archivo
+function agregarPersonajeAlFinal() {
+  try {
+    const datos = fs.readFileSync('personajes.json', 'utf-8');
+    const personajes = JSON.parse(datos);
+ 
+    const nuevo = {
+      id: 100,
+      firstName: "Brienne",
+      lastName: "Of Tarth",
+      fullName: "Brienne Of Tarth",
+      title: "Ser",
+      family: "House Tarth",
+      image: "brienne.jpg",
+      imageUrl: "https://thronesapi.com/assets/images/brienne.jpg"
+    };
+ 
+    personajes.push(nuevo);
+    fs.writeFileSync('personajes.json', JSON.stringify(personajes, null, 2));
+    console.log("2.a Personaje agregado al final ");
+    console.log(personajes);
+  } catch (error) {
+    console.error("error en 2.a:", error.message);
+  }
+}
+ 
+//2.b - Agregar dos personajes al inicio del archivo
+function agregarDosPersonajesAlInicio() {
+  try {
+    const datos = fs.readFileSync('personajes.json', 'utf-8');
+    const personajes = JSON.parse(datos);
+    const personaje1 = {
+      id: 101, //le pongo un  numero alto para que no haya problemas con las otras ids
+      firstName: "Missandei",
+      lastName: "",
+      fullName: "Missandei",
+      title: "Advisor to Daenerys",
+      family: "None",
+      image: "missandei.jpg",
+      imageUrl: "https://thronesapi.com/assets/images/missandei.jpg"
+    };
+    const personaje2 = {
+      id: 102,
+      firstName: "Grey",
+      lastName: "Worm",
+      fullName: "Grey Worm",
+      title: "Commander of the Unsullied",
+      family: "None",
+      image: "grey-worm.jpg",
+      imageUrl: "https://thronesapi.com/assets/images/grey-worm.jpg"
+    };
+ 
+    personajes.unshift(personaje1, personaje2);
+    fs.writeFileSync('personajes.json', JSON.stringify(personajes, null, 2));
+    console.log("2.b dos personajes agregados al inicio");
+    console.log(personajes);
+  } catch (error) {
+    console.error("error en 2.b:", error.message);
+  }
+}
