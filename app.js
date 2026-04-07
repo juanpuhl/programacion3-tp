@@ -183,7 +183,7 @@ async function agregarDosPersonajesAlInicio() {
     );
   }
 }
-agregarDosPersonajesAlInicio();
+
 
 // 2.c
 async function eliminarPrimerPersonaje() {
@@ -255,7 +255,7 @@ async function ordenarNombresDecreciente() {
 //mostrarTodosLosPersonajes();
 
 // 1 B - Agregar un nuevo personaje (POST).
-//AgregarPersonaje();
+//agregarPersonaje();
 
 // 1 C - Buscar la información de un determinado personaje, utilizando un “id” como parámetro (GET).
 //mostrarPersonajePorId(4);
@@ -271,6 +271,7 @@ async function ordenarNombresDecreciente() {
 //agregarDosPersonajesAlInicio();
 
 // 2 C - Eliminar el primer personaje, mostrar en consola el elemento eliminado.
+//eliminarPrimerPersonaje();
 
 // 2 D - Crear un nuevo archivo que solo contenga los: id y nombres de los personajes.
 //crearResumenPersonajes();
