@@ -1,13 +1,5 @@
 [
   {
-    "id": 1,
-    "nombreCompleto": "Samwell Tarly"
-  },
-  {
-    "id": 2,
-    "nombreCompleto": "Jon Snow"
-  },
-  {
     "id": 3,
     "nombreCompleto": "Arya Stark"
   },
@@ -206,5 +198,9 @@
   {
     "id": 52,
     "nombreCompleto": "Lord Bronn"
+  },
+  {
+    "id": 100,
+    "nombreCompleto": "Adrian Martinez"
   }
 ]
